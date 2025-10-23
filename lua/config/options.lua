@@ -17,6 +17,7 @@ opt.softtabstop = -1
 vim.diagnostic.config({
   underline = true,
   virtual_text = true,
+  --virtual_lines = true
 })
 
 -- Enabling relative line numbers

@@ -10,5 +10,14 @@ return {
     config = function()
       require("lualine").setup({})
     end
+  },
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    ---@module "ibl",
+    ---@type ibl.config
+    opts = {},
+    config = function()
+      require("ibl").setup()
+    end
   }
 }
